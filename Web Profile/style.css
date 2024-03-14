@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/*Bar Navigasi */
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+/* Akhir Bar Navigasi */
+
+.content {
+    padding: 20px;
+}
+
+/* HOME */
+
+.boxhome {
+    background-color: #fff;
+    padding: 10px;
+    text-align:center;
+    margin-top: 10px;
+    width: 95%; 
+    height: 90%; 
+    box-shadow: black;
+}
+
+.h1bio {
+    font-size: 200%;
+}
+.h2bio{
+    font-size: 100%;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.contact-info, .message-form {
+    width: 50%;
+}
+
+.contact-info {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+.contact-info  p {
+    text-align: left;
+}
+
+.message-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.message-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.message-form label {
+    margin-bottom: 10px;
+}
+
+.message-form input[type="text"],
+.message-form input[type="email"],
+.message-form textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.message-form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.message-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+/* Akhir HOME */
+
+
+/* BIODATA */
+.boxbio {
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: black;
+    max-width: 600px;
+    justify-items: center;
+    align-items: center;
+}
+
+.bio {
+    flex: 0 0 70%;
+    margin-bottom: 20px;
+}
+
+.bio h1, .bio p {
+    text-align: left;
+    margin-left: 20px ;
+}
+.bio h1 {
+    font-size: 200%; 
+    margin-bottom: 10px; 
+}
+.bio p {
+    font-size: 100%; 
+   
+}
+
+.img img{
+    border-radius: 50%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan efek bayangan pada gambar */
+}
+/* Akhir Biodata */
+
+
+/* PRESTASI */  
+.boxprestasi {
+    background-color: #fff;
+    text-align: center;
+    padding: 15px;
+    box-shadow: black;
+}
+
+.prestasi h2 {
+    margin-top: 20px;
+}
+.prestasi table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.prestasi th, .prestasi td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.prestasi th {
+    background-color: #f2f2f2;
+}
+/* Akhir Prestasi */
+
+/* Galeri */
+.boxgaleri {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: black;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+
+.foto {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+    padding-bottom: 20px;
+}
+.foto img {
+    max-width: 100%;
+    height: 70p;
+}
+/* Akhir Galeri */
+
+/* Portofolio */
+.boxportofolio{
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: black;
+    max-width: 800px;
+    margin: 20px auto;
+    
+}
+
+
+.portofolio {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+.project {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: black; 
+    padding: 5px;
+    text-align: center;
+    color: #f0f0f0;
+}
+
+
